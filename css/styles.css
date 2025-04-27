@@ -109,5 +109,15 @@ section.container {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
+}
+
+.one li {
+  padding: 10px;
+  font-size: 19px;
+}
+
+.two li {
+  padding: 10px;
+  font-size: 18px;
 }
