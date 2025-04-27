@@ -11,6 +11,7 @@ body {
   margin: 0;
   padding: 0;
   max-width: 1920px;
+  overflow-x: hidden;
   font-family: "Georgia", "Times New Roman", Times, serif;
 }
 
@@ -22,8 +23,12 @@ h1 {
   text-transform: uppercase;
 }
 
-ul.main-nav {
-  margin-left: 720px;
+div.main-nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  position: relative;
+  right: 35px;
 }
 
 li.nav {
@@ -35,7 +40,6 @@ a {
   text-decoration: none;
   color: var(--text);
   font-size: 2rem;
-  transition: 0.3s;
 }
 
 a:hover {
@@ -47,6 +51,13 @@ a:hover {
 a.home-btn {
   display: block;
   text-align: center;
-  position: relative;
-  right: 35px;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
