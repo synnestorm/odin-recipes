@@ -2,6 +2,7 @@
   --black: #000000;
   --primary: #ff7043;
   --accent: #4caf50;
+  --accent-two: rgba(76, 175, 80, 0.1);
   --bg: #fffcfc;
   --text: #30150c;
 }
@@ -49,7 +50,7 @@ a:hover {
 /* Styles for pizza.html, salad.html and taco.html */
 
 section.bg {
-  background-color: rgba(76, 175, 80, 0.2);
+  background-color: var(--accent-two);
   padding-top: 50px;
   width: 1300px;
   margin-left: auto;
@@ -93,14 +94,14 @@ h3 {
 div.one {
   width: 500px;
   height: auto;
-  background-color: var(--accent);
+  border: 4px solid var(--accent);
   border-radius: 10px;
 }
 
 div.two {
   width: 500px;
   height: auto;
-  background-color: var(--primary);
+  border: 4px solid var(--primary);
   border-radius: 10px;
 }
 
