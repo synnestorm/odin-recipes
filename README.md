@@ -9,3 +9,5 @@ This website will have a main index.html file, which will link to a few recipes.
 Thoughts/Reflection:
 
 This is also for me to teach how to use SSH keys, and to commit/push using linux on my local machine.
+
+(images and recipes used from allrecipes.com)
