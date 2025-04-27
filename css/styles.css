@@ -54,6 +54,9 @@ section.bg {
   width: 1300px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
+  height: auto;
+  padding-bottom: 50px;
 }
 
 a.home-btn {
