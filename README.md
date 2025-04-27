@@ -1,4 +1,4 @@
-# Odin Recipes Project Hello
+# Odin Recipes Project
 
 This is a project assignment from "The Odin Project".
 
