@@ -22,7 +22,7 @@ h1 {
   text-transform: uppercase;
 }
 
-li {
+li.nav {
   list-style: none;
   padding: 10px;
 }
