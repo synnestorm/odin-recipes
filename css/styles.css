@@ -13,11 +13,11 @@ body {
   max-width: 1920px;
   overflow-x: hidden;
   font-family: "Georgia", "Times New Roman", Times, serif;
+  color: var(--text);
 }
 
 h1 {
   text-align: center;
-  color: var(--text);
   font-size: 3rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -48,6 +48,14 @@ a:hover {
 
 /* Styles for pizza.html, salad.html and taco.html */
 
+section.bg {
+  background-color: rgba(76, 175, 80, 0.2);
+  padding-top: 50px;
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 a.home-btn {
   display: block;
   text-align: center;
@@ -58,8 +66,9 @@ img {
   display: block;
   margin: auto;
   max-width: 400px;
-  margin-top: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
+  position: relative;
+  top: -10px;
 }
 
 h2 {
@@ -71,4 +80,31 @@ p {
   text-align: center;
   font-size: 18px;
   line-height: 1.7;
+}
+
+h3 {
+  margin-left: 30px;
+  font-size: 1.5rem;
+}
+
+div.one {
+  width: 500px;
+  height: auto;
+  background-color: var(--accent);
+  border-radius: 10px;
+}
+
+div.two {
+  width: 500px;
+  height: auto;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+section.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
