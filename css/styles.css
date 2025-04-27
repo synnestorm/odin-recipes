@@ -43,3 +43,10 @@ a:hover {
 }
 
 /* Styles for pizza.html, salad.html and taco.html */
+
+a.home-btn {
+  display: block;
+  text-align: center;
+  position: relative;
+  right: 35px;
+}
