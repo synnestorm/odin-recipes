@@ -5,3 +5,12 @@
   --bg: #fffcfc;
   --text: #30150c;
 }
+
+body {
+  background-color: var(--bg);
+}
+
+h1 {
+  text-align: center;
+  color: var(--text);
+}
