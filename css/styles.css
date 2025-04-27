@@ -1,6 +1,6 @@
 :root {
   --black: #000000;
-  --primary: #ff7043;
+  --primary: rgba(255, 112, 67, 0.5);
   --accent: #4caf50;
   --accent-two: rgba(76, 175, 80, 0.1);
   --bg: #fffcfc;
@@ -15,6 +15,24 @@ body {
   overflow-x: hidden;
   font-family: "Georgia", "Times New Roman", Times, serif;
   color: var(--text);
+}
+
+main {
+  background-color: var(--accent-two);
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+header {
+  background-color: var(--primary);
+  margin-right: auto;
+  margin-left: auto;
+  width: 1300px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -48,17 +66,6 @@ a:hover {
 }
 
 /* Styles for pizza.html, salad.html and taco.html */
-
-section.bg {
-  background-color: var(--accent-two);
-  padding-top: 50px;
-  width: 1300px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  height: auto;
-  padding-bottom: 50px;
-}
 
 a.home-btn {
   display: block;
